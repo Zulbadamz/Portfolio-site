@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  background: rgb(246, 218, 223);
+  background-color: #e8f4fd;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Cg opacity='0.18'%3E%3Ccircle cx='20' cy='20' r='8' fill='%2390caf9'/%3E%3Ccircle cx='20' cy='12' r='5' fill='%2364b5f6'/%3E%3Ccircle cx='20' cy='28' r='5' fill='%2364b5f6'/%3E%3Ccircle cx='12' cy='20' r='5' fill='%2364b5f6'/%3E%3Ccircle cx='28' cy='20' r='5' fill='%2364b5f6'/%3E%3Ccircle cx='14' cy='14' r='4' fill='%2390caf9'/%3E%3Ccircle cx='26' cy='14' r='4' fill='%2390caf9'/%3E%3Ccircle cx='14' cy='26' r='4' fill='%2390caf9'/%3E%3Ccircle cx='26' cy='26' r='4' fill='%2390caf9'/%3E%3Ccircle cx='20' cy='20' r='4' fill='%23bbdefb'/%3E%3Ccircle cx='70' cy='70' r='8' fill='%2390caf9'/%3E%3Ccircle cx='70' cy='62' r='5' fill='%2364b5f6'/%3E%3Ccircle cx='70' cy='78' r='5' fill='%2364b5f6'/%3E%3Ccircle cx='62' cy='70' r='5' fill='%2364b5f6'/%3E%3Ccircle cx='78' cy='70' r='5' fill='%2364b5f6'/%3E%3Ccircle cx='64' cy='64' r='4' fill='%2390caf9'/%3E%3Ccircle cx='76' cy='64' r='4' fill='%2390caf9'/%3E%3Ccircle cx='64' cy='76' r='4' fill='%2390caf9'/%3E%3Ccircle cx='76' cy='76' r='4' fill='%2390caf9'/%3E%3Ccircle cx='70' cy='70' r='4' fill='%23bbdefb'/%3E%3Ccircle cx='70' cy='20' r='5' fill='%23b3e5fc'/%3E%3Ccircle cx='70' cy='14' r='3' fill='%2390caf9'/%3E%3Ccircle cx='70' cy='26' r='3' fill='%2390caf9'/%3E%3Ccircle cx='64' cy='20' r='3' fill='%2390caf9'/%3E%3Ccircle cx='76' cy='20' r='3' fill='%2390caf9'/%3E%3Ccircle cx='20' cy='70' r='5' fill='%23b3e5fc'/%3E%3Ccircle cx='20' cy='64' r='3' fill='%2390caf9'/%3E%3Ccircle cx='20' cy='76' r='3' fill='%2390caf9'/%3E%3Ccircle cx='14' cy='70' r='3' fill='%2390caf9'/%3E%3Ccircle cx='26' cy='70' r='3' fill='%2390caf9'/%3E%3C/g%3E%3C/svg%3E");
   color: #1f2937;
   font-family: Arial, sans-serif;
 }
@@ -17,7 +18,7 @@ body {
 }
 
 .logo {
-  color: #273c75;
+  color: #1565c0;
   font-size: 30px;
 }
 
@@ -27,7 +28,7 @@ body {
 }
 
 .nav-links a {
-  color: #273c75;
+  color: #1565c0;
   text-decoration: none;
   font-weight: bold;
 }
@@ -41,7 +42,7 @@ body {
 }
 
 .intro {
-  color: #8e44ad;
+  color: #0288d1;
   font-size: 24px;
   font-weight: bold;
 }
@@ -49,7 +50,7 @@ body {
 .hero h1 {
   font-size: 72px;
   line-height: 1;
-  color: #273c75;
+  color: #1565c0;
   margin: 10px 0 24px;
 }
 
@@ -62,7 +63,7 @@ body {
 .primary-btn {
   display: inline-block;
   margin-top: 30px;
-  background: #8e44ad;
+  background: #0288d1;
   color: white;
   padding: 16px 28px;
   border-radius: 999px;
@@ -71,11 +72,11 @@ body {
 }
 
 .hero-card {
-  background: #dff3ff;
+  background: #e1f5fe;
   border-radius: 40px;
   padding: 35px;
   text-align: center;
-  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 14px 35px rgba(2, 136, 209, 0.15);
   transform: rotate(3deg);
 }
 
@@ -83,7 +84,7 @@ body {
   width: 260px;
   height: 260px;
   border-radius: 35px;
-  background: #273c75;
+  background: #1565c0;
   color: white;
   display: grid;
   place-items: center;
@@ -92,16 +93,25 @@ body {
   margin: 0 auto 20px;
 }
 
+.profile-pic {
+  width: 260px;
+  height: 260px;
+  border-radius: 35px;
+  object-fit: cover;
+  margin: 0 auto 20px;
+  display: block;
+}
+
 .section {
   margin: 40px 70px;
   padding: 50px;
   background: white;
   border-radius: 35px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.07);
+  box-shadow: 0 10px 30px rgba(2, 136, 209, 0.08);
 }
 
 .section h2 {
-  color: #273c75;
+  color: #1565c0;
   font-size: 42px;
   margin-top: 0;
 }
@@ -112,7 +122,7 @@ body {
 }
 
 .about-section {
-  background: #fff7d6;
+  background: #e1f5fe;
 }
 
 .project-grid {
@@ -122,14 +132,29 @@ body {
 }
 
 .project-card {
-  background: #eaf7ff;
+  background: #f0f9ff;
   border-radius: 25px;
   padding: 28px;
+  border: 1.5px solid #b3e5fc;
 }
 
 .project-card h3 {
-  color: #8e44ad;
+  color: #0277bd;
   font-size: 24px;
+}
+
+.project-card h4 {
+  color: #0288d1;
+  font-weight: 500;
+  margin: 4px 0;
+}
+
+.project-card .date {
+  font-size: 0.85rem;
+  color: #4fc3f7;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .skills {
@@ -139,7 +164,7 @@ body {
 }
 
 .skills span {
-  background: #273c75;
+  background: #0288d1;
   color: white;
   padding: 13px 22px;
   border-radius: 999px;
@@ -147,11 +172,11 @@ body {
 }
 
 .contact-section {
-  background: #e9ddff;
+  background: #e1f5fe;
 }
 
 .contact-section a {
-  color: #273c75;
+  color: #0277bd;
   font-weight: bold;
 }
 
@@ -183,4 +208,20 @@ body {
     margin: 25px;
     padding: 30px;
   }
+
+  @keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section {
+  animation: fadeInUp 0.7s ease both;
+}
+
 }
