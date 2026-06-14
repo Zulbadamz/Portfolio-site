@@ -118,6 +118,7 @@ const deleteProgress = () => {
           <a href="#skills">Skills</a>
           <a href="#problem-solving">Problem Solving</a>
           <a href="#progress">Progress</a>
+          <a href="#hobbies">Hobbies</a>
           <a href="#contact">Contact</a>
         </div>
       </nav>
@@ -210,6 +211,40 @@ const deleteProgress = () => {
           <span>Communication and Growth Facilitator</span>
         </div>
       </section>
+
+      <section id="hobbies" className="section">
+        <h2>Hobbies & Interests</h2>
+        <div className="project-grid">
+        <div className="project-card">
+        <h3>🎨 UI/UX Design</h3>
+        <p>Passionate about creating clean, intuitive interfaces that make technology accessible and enjoyable for everyone.</p>
+      </div>
+         <div className="project-card">
+         <h3>🧘 Pilates</h3>
+      <p>Practice Pilates regularly to build strength, flexibility, and mindfulness — helping me stay focused and energized.</p>
+      </div>
+      <div className="project-card">
+      <h3>🏊 Swimming</h3>
+      <p>Swimming is my go-to activity for clearing my mind and recharging after long coding sessions.</p>
+      </div>
+      <div className="project-card">
+      <h3>📖 Book Translation</h3>
+      <p>Translating books from English to Mongolian — combining my love of language, culture, and storytelling.</p>
+      </div>
+      <div className="project-card">
+      <h3>🈵 Learning Chinese</h3>
+      <p>Actively learning Mandarin Chinese to connect with a new culture and expand my communication skills globally.</p>
+      </div>
+      <div className="project-card">
+      <h3>🇰🇷 Learning Korean</h3>
+      <p>Practicing Korean daily on Duolingo — building vocabulary and conversational skills one streak at a time.</p>
+      </div>
+      <div className="project-card">
+      <h3>📚 World History</h3>
+      <p>Passionate about reading world history, especially Mongolian and American history — fascinated by how past events shape the cultures and societies we live in today.</p>
+    </div>
+  </div>
+</section>
 
       <section id="progress" className="section">
   <h2>Daily Progress Tracker</h2>
